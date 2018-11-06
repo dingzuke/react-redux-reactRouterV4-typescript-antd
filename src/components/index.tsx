@@ -3,6 +3,7 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 const { Header, Content, Footer } = Layout;
 import { withRouter } from 'utils/router';
 import { Switch, Route, Redirect } from 'react-router-dom';
+// import ReactCanvasNest from 'react-canvas-nest';             
 
 import Home from './Home/Hello';
 import Login from './Login';
@@ -36,6 +37,7 @@ export default class UIIndex extends React.Component<Props, object> {
                     </Menu>
                 </Header>
                 <Content style={{ padding: '0 30px' }}>
+                    {/* <ReactCanvasNest className="nest" config={{ pointColor: ' 255, 255, 255 ' , pointOpacity: 0.5}} style={{ zIndex: 1, height: '1000px'}} /> */}
                     <Breadcrumb style={{ margin: '16px 0' }}>
                         <Breadcrumb.Item>Home</Breadcrumb.Item>
                         <Breadcrumb.Item>List</Breadcrumb.Item>
