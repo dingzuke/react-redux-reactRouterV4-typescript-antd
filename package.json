@@ -71,7 +71,7 @@
     "@types/react-dom": "^16.0.4",
     "csvtojson": "^2.0.3",
     "ts-import-plugin": "^1.4.4",
-    "typescript": "^2.8.1"
+    "typescript": "^3.1.0"
   },
   "jest": {
     "collectCoverageFrom": [
